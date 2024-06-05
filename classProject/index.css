@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-div{
+    box-shadow: 1px 2px 4px black;
+    background-color: #efce;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 150px;
+    flex-wrap: wrap;
+
+}
+#navigations{
+    width: 50%;
+    height: 150px;
+    flex-wrap: wrap;
+   
+}
+.bar:hover{
+    color: #009;
+    cursor: pointer;
+    transition: 1s;
+}
+#navigations ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 50px 20px;
+    height: 130px;
+}
+ul li{
+    margin-left: 30px;
+    font-size: 30px;
+    padding: 10px;
+    float: right;
+    color: black;
+    border-radius: 12px;
+}
+ul select{
+ border: none;
+ text-align: center;
+ background-color: #efce;
+ margin-left: 20px;
+ border-radius: 12px;
+ text-align: center;
+ box-shadow: 1px 2px 4px black;
+ outline: none;
+}
+ul select option{
+    background-color: #efce;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+#icons{
+    width: 50%;
+    height: 150px;
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
+section span{
+    padding: 30px 10px;
+}
+section i{
+    padding: 30px;
+}
+i img{
+    border-radius: 50%;
+}
+
+/* end of navigation bar css */
+
+#main-body{
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/maize2.jpeg);
+    animation: colorChange 10s infinite alternate;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    display: block;
+    flex-wrap: wrap;
+
+}
+.hd{
+    height: 150px;
+    /* background-color: blue; */
+}
+#contents{
+height: 100px;
+/* background-color: tan; */
+margin-top: 20px;
+
+}
+.learn-more{
+    height: 200px;
+    /* background-color: orange; */
+}
+
+@keyframes colorChange {
+    0% { background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/maize3.jpeg);
+      animation: colorChange 3s infinite alternate; 
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed; }  
+    33% { background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/cicter.jpeg);
+      animation: colorChange 3s infinite alternate; 
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed; } 
+    66% {background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/harvesting.jpeg);
+      animation: colorChange 3s infinite alternate; 
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed; }
+    100% { background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/tomato.jpeg);
+      animation: colorChange 3s infinite alternate; 
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;} 
+  }
+  
+/* styling heading and maelezo */
+.heading{
+    color: whitesmoke;
+    padding: 40px 20px;
+}
+#contents{
+    width: 100vw;
+    margin-top: 10px;
+}
+.maelezo{
+    color: #fed000;
+    font-size: 20px;
+    text-align: center;
+}
+.button{
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+}
+button{
+    font-size: 25px;
+    background-color: #e8d6ba;
+    border-radius: 12px;
+    outline: none;
+    color: black;
+    padding: 10px 20px;
+    box-shadow: 4px 8px 16px black;
+}
+#bar i:hover{
+    cursor: pointer;
+    color: #009;
+}
+button i {
+    font-size: 40px;
+    transform: translate(0px,5px);
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+button i:hover{
+    color: orange;
+}
+.contents{
+    text-align: center;
+}
+
+/* ///end of the sub-main body 
+ */
+.separator{
+    width: 100vw;
+    height: 70px;
+    /* background-color: blue; */
+}
+
+/* end of class separator */
+.sub-main-2{
+    
+}
+.nzuri{
+    transform: translate(3px,3px);
+}
+
+.nzuri:after {
+    content: "";
+    display: block;
+    width: 200px; 
+    height: 5px;  
+    background-color: orange;  
+    position: absolute;
+    bottom: -20px; 
+    left: 0;
+  }
+   
+
+  /* start styling images  */
+  .images{
+    margin-top: 70px;
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
+.images img{
+    margin: 30px;
+
+}
+.pic{
+    /* border: 1px solid rgb(150, 149, 149); */
+    border-radius: 12px;
+    /* box-shadow: 1px 2px 3px; */
+    margin: 2px;
+    
+
+}
+.bei{
+    display: flex;
+    margin: 3px;
+}
+.bei p,span{
+    margin: 3px;
+
+}
+.bei span{
+    color: orange;
+    
+}
+/* :end */
+#footer{
+    background-color: #e8d6ba;
+    width: 100vw;
+    /* height: 500px; */
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+iframe{
+    width: 100vw;
+}
+#checkout{
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/maize2.jpeg);
+    animation: colorChange 10s infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+#checkout input.eml{
+    width: 350px;
+    height: 50px;
+    outline: none;
+    background-color: #fed000;
+    text-align: center;
+}
+input.sbmt{
+    background-color: #efce;
+    width: 200px;
+    height: 50px;
+    margin-left: 60px;
+    border-radius: 12px;
+}
+.ft{
+    width: 350px;
+    height: 400px;
+     margin: 40px 20px;
+}
+.ft p{
+    margin-top: 25px;
+}
+

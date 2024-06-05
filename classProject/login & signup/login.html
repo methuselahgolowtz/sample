@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>user-Dashboard-login-page</title>
+	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-Q85xgzayqnC7Np7GxxCNqO4lWAF-wYyFHq acoEO8RLsCgTAes8gRC1gyvgyjtqQxAXjEYHLclCORNJH2cXcQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="boostrap/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="boostrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
+
+</head>
+
+<!-- style -->
+<style >
+	.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+}
+
+#main{
+	text-align: center
+}
+.btn{
+width: 250px;
+background: #abc;
+transition: 1s;
+}
+.btn:hover{
+	background: #bba
+}
+.user-name{
+	margin: 10px;
+}
+.user-name label{
+	margin: 10px;
+}
+.user-name input{
+	width: 250px;
+	height: 50px;
+
+}
+.fom{
+	border: 1px solid black;
+	background: #fff;
+}
+@media screen and (min-width: 300px) {
+.user-name input, .btn{
+	width: 200px;
+}
+}
+.icon img{
+	border-radius: 50%;
+}
+
+</style>
+
+<body class="poppins-light">
+
+	<div class="container pt-3 bg-white" id="main">
+		
+		<form action="" method="" class="container-fluid pt-3 bg-white fom">
+ 
+       <div class="icon">
+       	<i>
+       		<img src="../image/logoagri.png" width="100px" height="100px">
+       	</i>
+       </div>
+		<h4 class="dancing-script">Agri-Bussiness
+		</h4>
+			<div class="user-name">
+				<label>Username</label><br>
+				<input type="text" autofocus autocomplete="false" name="username" placeholder="Enter  username">
+			</div>
+			
+		 <!-- passwords -->
+			<div class="user-name">
+				<label>Password</label><br>
+				<input type="passwords" name="passwords" placeholder="Enter  passwords">
+			</div>
+
+			<!-- button -->
+			<div class="user-name">
+				<input type="submit" name="submit" value="Login" class="btn">
+				
+			</div>
+
+			<div class="or">
+				<hr class="bg-dark">
+			</div>
+			<div class="google">
+				<a href="#">
+				<i class="fab fa-google"> </i>
+					<p>Login with Google account</p>
+				</a>
+				
+			</div>
+			<div class="google">
+				<a href="#">
+				<i class="fab fa-facebook"> </i>
+					<p>Login with Facebook account</p>
+				</a>
+				
+			</div>
+			<div class="google">
+				<a href="#">
+					<p>Forgot password</p>
+				</a>
+				
+			</div>
+			<hr class="bg-dark">
+
+			<div class="google">
+				<p>Don`t have an Account?</p>
+				<a href="registration.html">
+					Signup
+				</a>
+				
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>
